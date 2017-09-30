@@ -1,0 +1,10 @@
+A linked list is a linear data structure where each element is a separate object.
+
+Each element (we will call it a node) of a list is comprising of two items: the data and a reference to the next node. The last node has a reference to null.
+A linked list is a dynamic data structure. The number of nodes in a list is not fixed and can grow and shrink on demand. Any application which has to deal with an unknown number of objects will need to use a linked list.
+One disadvantage of a linked list against an array is that it does not allow direct access to the individual elements. If you want to access a particular item then you have to start at the head and follow the references until you get to that item.
+
+Types of Linked Lists
+A singly linked list is described above
+A doubly linked list is a list that has two references, one to the next node and another to previous node.
+Another important type of a linked list is called a circular linked list where last node of the list points back to the first node (or the head) of the list.
